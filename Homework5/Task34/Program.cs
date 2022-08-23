@@ -2,11 +2,12 @@
 
 int size= new Random().Next(0,11);
 int [] arrey = new int [size];
+Console.Write ("Задан массив: ");
 
 for (int i=0; i<arrey.Length; i++) {
 
 arrey[i]= new Random().Next(100,1000);
-Console.WriteLine(arrey [i] + " ");
+Console.WriteLine( arrey [i] + " ");
 }
     int count = 0;
         
